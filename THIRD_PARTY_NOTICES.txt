@@ -1,0 +1,13 @@
+Animation runtime: GSAP and ScrollTrigger 3.15.0, GreenSock.
+Original license headers are preserved in vendor files.
+https://gsap.com/standard-license/
+
+Typefaces: Inter Tight, Caveat, and Noto Sans SC, Google Fonts.
+Distributed under the SIL Open Font License 1.1.
+https://openfontlicense.org/open-font-license-official-text/
+
+Software icons: Simple Icons, CC0 1.0 Universal.
+https://github.com/simple-icons/simple-icons
+
+Portfolio text and images supplied by Cui Xuan.
+Mechanical film-reader decoration generated with OpenAI image generation.

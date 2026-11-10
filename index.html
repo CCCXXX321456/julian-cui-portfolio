@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FCFCFC">
+<meta name="description" content="Julian Cui — technical art, game engine development, AIGC, UI and industrial design.">
+<title>Julian Cui — Technical Artist & Designer</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+<script defer src="vendor/gsap.min.92bb9a9647.js"></script>
+<script defer src="vendor/ScrollTrigger.min.b0b14d67b5.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<main class="home" id="home">
+ <section class="identity-column">
+  <header class="profile-head">
+   <button class="profile-button" data-view="about" aria-label="About Julian Cui"><img src="assets/avatar-canyon-nov10.26c34f2e1d.webp" width="44" height="44" alt="Julian Cui" draggable="false"><span><strong class="profile-name">Julian Cui</strong><span class="profile-role">Technical artist & designer</span></span></button>
+   <div class="language-switch" role="group" aria-label="Language"><button data-language="en" aria-label="Switch to English" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button data-language="zh" lang="zh-CN" aria-label="切换为简体中文" aria-pressed="false">简体中文</button></div>
+  </header>
+  <div class="hero-copy">
+   <h1 class="hero-heading"><span>Designing products</span><span>& digital experiences.</span></h1>
+   <p class="hero-disciplines">Game engine development / AIGC / UI design</p>
+   <p class="hero-lead">I connect design and technical art across products<br>and digital experiences—from game engine development<br>and digital twins to AIGC and UI design.</p>
+   <div class="hero-actions"><button class="explore-projects" data-view="collection">View selected work</button><a class="hero-email" href="mailto:Juliantrae@163.com">Juliantrae@163.com</a></div>
+   <button class="about-link" data-view="about">About & experience</button>
+  </div>
+  <section class="software-block" aria-label="Software and tools">
+   <p class="software-title">Tools I work with</p><p class="software-description">Design, build, prototype & explore.</p>
+   <div class="software-window"><div class="software-track"></div></div>
+  </section>
+  <footer class="home-footer"><span class="copyright">© 2026 Julian Cui. All rights reserved.</span><button class="motion-control" aria-label="Pause motion" aria-pressed="false">Pause motion</button></footer>
+ </section>
+ <section class="project-machine" aria-label="Selected projects">
+  <img class="machine-bezel" src="assets/portfolio-film-reader.8eac3a9e20.webp" width="1024" height="1536" alt="" aria-hidden="true" draggable="false" fetchpriority="high">
+  <div class="project-window" tabindex="0" role="region" aria-label="Selected projects. Scroll, drag or use the up and down arrow keys to explore."><div class="project-track"></div></div>
+  <span class="machine-instruction" aria-hidden="true">SCROLL TO EXPLORE</span>
+ </section>
+</main>
+<dialog class="panel-dialog" id="panel" aria-labelledby="panel-title">
+ <header class="panel-bar"><button class="back-to-work" data-view="collection">All work <span aria-hidden="true">↗</span></button><span class="panel-indicator">JULIAN CUI / PORTFOLIO</span><div class="language-switch panel-languages" role="group" aria-label="Language"><button data-language="en" aria-label="Switch to English" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button data-language="zh" lang="zh-CN" aria-label="切换为简体中文" aria-pressed="false">简体中文</button></div><button class="close-panel" aria-label="Close details">Close <span aria-hidden="true">×</span></button><div class="reading-progress" aria-hidden="true"></div></header>
+ <div class="panel-scroll"><div class="panel-content"></div></div>
+</dialog>
+<dialog class="lightbox" id="lightbox" aria-label="Project image"><button class="lightbox-close" aria-label="Close image">Close ×</button><img alt="" draggable="false"><p></p></dialog>
+<div class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">Enable JavaScript to explore the projects, or <a href="mailto:Juliantrae@163.com">contact Julian Cui by email</a>.</p></noscript>
+</body>
+</html>
