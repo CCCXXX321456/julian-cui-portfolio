@@ -8,6 +8,10 @@ A static portfolio with ten projects, English and Simplified Chinese, a draggabl
 
 [Rectangular Massing for UE 5.7](plugins/RectangularMassing) generates dimensioned architectural masses from a level-editor panel. The plugin directory includes the source and installation instructions.
 
+## Blender add-on
+
+[Particle Orbit for Blender 5.1](plugins/BlenderParticleOrbit) creates editable, looping particle rings around a selected object or the 3D cursor.
+
 ## Local preview
 
 Run `python -m http.server 8000` in this directory and visit `http://localhost:8000/`.
