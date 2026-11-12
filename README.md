@@ -4,6 +4,10 @@ Live site: https://CCCXXX321456.github.io/julian-cui-portfolio/
 
 A static portfolio with ten projects, English and Simplified Chinese, a draggable film-strip gallery, project videos, and an About page. Built with HTML, CSS, vanilla JavaScript and GSAP.
 
+## Unreal Engine plugin
+
+[Rectangular Massing for UE 5.7](plugins/RectangularMassing) generates dimensioned architectural masses from a level-editor panel. The plugin directory includes the source and installation instructions.
+
 ## Local preview
 
 Run `python -m http.server 8000` in this directory and visit `http://localhost:8000/`.

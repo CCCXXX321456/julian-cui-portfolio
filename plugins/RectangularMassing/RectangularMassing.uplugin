@@ -1,0 +1,17 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "Rectangular Massing",
+    "Description": "Generate dimensioned rectangular building masses from a level-editor panel.",
+    "Category": "Architecture",
+    "CreatedBy": "Julian Cui",
+    "CanContainContent": false,
+    "Modules": [
+        {
+            "Name": "RectangularMassing",
+            "Type": "Editor",
+            "LoadingPhase": "PostEngineInit"
+        }
+    ]
+}
